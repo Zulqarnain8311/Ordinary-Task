@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="mainhead">
+      <div class="header">
+        <h1 class="headertext">Ordinary Tasks</h1>
+      </div>
+      <div class="form-group">
+        <div>
+          <h1
+            class="dailyheading cardheader animate__animated animate__backInDown"
+          >
+            Focus on productive tasks
+          </h1>
+        </div>
+
+        <input
+          type="email"
+          class="form-control"
+          id="inputnode"
+          placeholder="Add Your Ordinary Task"
+        />
+      </div>
+
+      <div class="button">
+        <button
+          type="button"
+          class="btn btn-success"
+          style="background-color: navy"
+          onclick="inputvalue()"
+        >
+          Add Task
+        </button>
+        <button
+          type="button"
+          class="btn btn-danger"
+          style="background-color: #8b0000"
+          onclick="deleteall()"
+        >
+          Delete All Tasks
+        </button>
+      </div>
+      <section id="parent">
+        <div class="card maincard">
+        <div class="card-header"><h4 class="cardheader">Ordinary Task</h1></div>
+        <div class="card-body">
+          <p class="card-text">
+            With supporting text below as a natural lead-in to additional
+            content.
+          </p>
+         
+            <button
+              type="button"
+              class="btn btn-success"
+              style="background-color: navy"
+              onclick="inputvalue()"
+            >
+              Edit Task
+            </button>
+            <button
+            type="button"
+            class="btn btn-danger"
+            style="background-color: #8b0000"
+          >
+            Delete  Task
+          </button>
+        </div> 
+      </div>
+      </section>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+
+  <script type="module" src="app.js"></script>
+</html>

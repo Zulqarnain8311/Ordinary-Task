@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+overflow: scroll};
+
+.mainhead{
+    max-width: 85%;
+  margin: auto;
+}
+.header{
+  text-align: center;
+    margin-top: 1.5%;
+    font-size: 30px;
+    background-color: navy;
+    color: white;
+    height: 7%;  
+}
+.dailyheading{
+    margin-top:0.9%;
+    margin-left: 2%;
+}
+.form-control{
+    max-width: 65%; 
+    margin-left: 5%;
+    margin-top: 2%;
+     border-color: navy;
+     color: black;
+}
+.button{
+  margin-top: 0.8%;
+  margin-left: 55%;
+  gap: 10px;
+}
+.maincard{
+  max-width: 70%;
+  margin-top: 3%;
+  margin-left: 8%;
+}
+.cardheader{
+  
+  font-weight: bold;
+color: navy;
+}
+
+.btn{
+  margin-left: 0.4%;
+}
